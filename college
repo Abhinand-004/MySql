@@ -1,0 +1,13 @@
+INSERT INTO `college`(`Name`, `Age`, `Department`, `Grades`) VALUES ('Abhinand',21,'Computer Science',73);
+INSERT INTO `college` VALUES (2,'Paul',20,'Physics',80);
+INSERT INTO `college` VALUES (3,'Sidharth',22,'Chemistry',69),
+(4,'Nandhu',22,'Physics',87),
+(5,'Hari',22,'Computer Science',66),
+(6,'Ananya',22,'Chemistry',62),
+(7,'Abhi',22,'Computer Science',77),
+(8,'Anandhu',22,'Computer Science',57),
+(9,'Athulya',22,'Physics',64),
+(10,'Akhila',22,'Chemistry',80),
+(11,'Akshay',22,'Physics',89);
+
+SELECT * FROM `college` WHERE Age>20;
