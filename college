@@ -11,3 +11,8 @@ INSERT INTO `college` VALUES (3,'Sidharth',22,'Chemistry',69),
 (11,'Akshay',22,'Physics',89);
 
 SELECT * FROM `college` WHERE Age>20;
+
+SELECT * FROM `college` WHERE Department IN ('Computer Science','Physics');
+
+SELECT * FROM `college` WHERE Grades=90;
+SELECT * FROM `college` WHERE Grades BETWEEN 70 AND 90;
