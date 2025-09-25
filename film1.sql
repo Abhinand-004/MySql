@@ -26,3 +26,4 @@ WHERE release_year BETWEEN 2008 AND 2015;
 SELECT COUNT(*) AS "High Rated Movies"
 FROM movies
 WHERE rating > 8.5;
+

@@ -10,9 +10,6 @@ UPDATE `bookstore1` SET `Price`=420,`Stock`=45 WHERE Title='Deep Work';
 
 DELETE FROM `bookstore1` WHERE Title='Ikigai';
 
-
-
-
 SELECT AVG(Price), COUNT(*) FROM `bookstore1`;
 
 SELECT * FROM `bookstore1` ORDER BY Price DESC LIMIT 3;
