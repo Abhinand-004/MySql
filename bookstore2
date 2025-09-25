@@ -8,3 +8,11 @@ INSERT INTO `bestsell` VALUES (4, 'Ikigai', 'Francesc Miralles', 'Philosophy', 3
 SELECT Title,Author FROM bookstore2 
 UNION 
 SELECT Title,Author FROM bestsell;
+
+SELECT * FROM `bookstore2` WHERE Price>400
+
+SELECT AVG(Price) FROM `bookstore2`;
+
+SELECT COUNT(*) FROM `bookstore2`;
+
+SELECT Title AS 'BOOK TITLE', Author AS 'WRITTEN BY' FROM `bookstore2`;
