@@ -11,4 +11,6 @@ print(cus_tota);
 print(type(cus_tota));
 print(int(cus_tot));
 import random
-print(random.randrange(5,10)+cus_tot)
+dev_charge=random.randrange(5,10);
+print("Delivery charge is:"+str(dev_charge));
+print(dev_charge+cus_tot)
