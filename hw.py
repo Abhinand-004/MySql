@@ -6,3 +6,9 @@ cust_sug=2.5;
 cust_oil=1.8;
 cus_tot=(cust_rice*rice)+(cust_sug*sug)+(cust_oil*oil);
 print("Total cost of your purchase is:"+str(cus_tot));
+cus_tota=str(cus_tot);
+print(cus_tota);
+print(type(cus_tota));
+print(int(cus_tot));
+import random
+print(random.randrange(5,10)+cus_tot)
